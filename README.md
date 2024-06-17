@@ -1,1 +1,1 @@
-# Aplicativo-para-estudo
+Utilize o VSCode para poder abrir o aplicativo.
