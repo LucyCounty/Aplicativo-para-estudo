@@ -15,7 +15,7 @@ public class LoginScreen extends JFrame {
     private JComboBox<String> tipoUsuarioField;
 
     public LoginScreen() {
-        setTitle("Login");
+        setTitle("Logar");
         setSize(250, 240);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -96,7 +96,7 @@ public class LoginScreen extends JFrame {
                     }
                 }
                 if (!validUser) {
-                    JOptionPane.showMessageDialog(null, "Login inválido!");
+                    JOptionPane.showMessageDialog(null, "Email ou senha está incorreto, ou o tipo de usuário está errado \"" + tipoUsuario + "\"");
                 }
             } catch (IOException ex) {
                 ex.printStackTrace();
